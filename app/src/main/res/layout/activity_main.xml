@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.baozoumanhua.MainActivity">
+
+    <com.example.baozoumanhua.viewpager.MyViewPager
+        android:id="@+id/main_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <RadioGroup
+        android:id="@+id/mainRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/main_rb1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1  "
+            android:text="首页"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/main_rb2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1  "
+            android:text="搜索"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/main_rb3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1  "
+            android:text="制作"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/main_rb4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1  "
+            android:text="审查"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/main_rb5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1  "
+            android:text="聊天"></RadioButton>
+    </RadioGroup>
+</LinearLayout>
