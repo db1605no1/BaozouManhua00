@@ -21,39 +21,70 @@
         android:orientation="horizontal">
 
         <RadioButton
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/txtcolor_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/home_selector"
             android:checked="true"
             android:id="@+id/main_rb1"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1  "
-            android:text="首页"></RadioButton>
+            android:layout_weight="1"
+
+            android:text="首页">
+
+        </RadioButton>
 
         <RadioButton
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/txtcolor_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/search_selector"
             android:id="@+id/main_rb2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1  "
-            android:text="搜索"></RadioButton>
+            android:text="搜索">
+
+        </RadioButton>
 
         <RadioButton
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/txtcolor_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/make_selector"
             android:id="@+id/main_rb3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1  "
-            android:text="制作"></RadioButton>
+            android:layout_weight="1 "
+            android:text="制作">
+
+        </RadioButton>
 
         <RadioButton
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/txtcolor_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/check_selector"
             android:id="@+id/main_rb4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1  "
-            android:text="审查"></RadioButton>
+            android:text="审查">
+
+        </RadioButton>
 
         <RadioButton
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/txtcolor_selector"
+            android:button="@null"
+            android:drawableTop="@drawable/chat_selector"
             android:id="@+id/main_rb5"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1  "
-            android:text="聊天"></RadioButton>
+            android:text="聊天">
+
+        </RadioButton>
     </RadioGroup>
 </LinearLayout>
